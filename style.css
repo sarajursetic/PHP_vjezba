@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 3em;
+  }
+  
+
+#naslov{
+   margin-left: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+  form {
+    background-color: white;
+    width: 600px;
+    height: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+    font-size: 20px;
+    
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #2f0c91;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  #Posalji {
+    width: 50%;
+    background-color: #a840e0;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 25%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  #Posalji:hover {
+    background-color: #4b29e5;
+    transition: all 0.5s ease-in;
+  }
+  
